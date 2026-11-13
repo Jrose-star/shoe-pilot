@@ -1,0 +1,34 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 环境变量和密钥
+.env
+.env.*
+!.env.example
+
+# Git 和 IDE
+.git/
+.gitignore
+.idea/
+.vscode/
+
+# 日志和临时文件
+*.log
+logs/
+tmp/
+.DS_Store
+
+# 测试和文档（按需保留）
+tests/
+docs/
+README.md

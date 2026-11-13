@@ -1,0 +1,27 @@
+# 依赖和构建产物
+node_modules/
+dist/
+.vite/
+
+# 环境变量
+.env
+.env.*
+!.env.example
+
+# Git 和 IDE
+.git/
+.gitignore
+.idea/
+.vscode/
+
+# 日志和系统文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+
+# 测试和文档（按需保留）
+coverage/
+tests/
+README.md

@@ -1,0 +1,12 @@
+<template>
+  <router-view />
+</template>
+<style>
+/* 全局重置 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f3f4f6;
+}
+</style>
